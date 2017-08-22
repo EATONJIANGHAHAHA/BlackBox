@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.mad.blackbox.Activity.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <LinearLayout
+                android:id="@+id/levelLl"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_weight="0.333"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/levelImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_action_name" />
+
+                <TextView
+                    android:id="@+id/levelTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Level"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/compassLl"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_weight="0.333"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/compassImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_action_name" />
+
+                <TextView
+                    android:id="@+id/compassTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Compass"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/decibelLl"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_weight="0.333"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/decibelImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_action_name" />
+
+                <TextView
+                    android:id="@+id/decibelTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Decibel detector"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/hygrometerLl"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_weight="0.333"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/hygrometerImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_action_name" />
+
+                <TextView
+                    android:id="@+id/hygrometerTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Hygrometer"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/thermometerLl"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_weight="0.333"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/thermometerImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_action_name" />
+
+                <TextView
+                    android:id="@+id/thermeterTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="thermometer"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/barometerLl"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_weight="0.333"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/barometerImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_action_name" />
+
+                <TextView
+                    android:id="@+id/barometerTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Barometer"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/locatorLl"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_weight="0.333"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/locatorImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_action_name" />
+
+                <TextView
+                    android:id="@+id/locatorTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Locator"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/speedometerLl"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_weight="0.333"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/speedometerImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_action_name" />
+
+                <TextView
+                    android:id="@+id/speedometerTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Speedometer"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/altimeterLl"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_weight="0.333"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/altimeterImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_action_name" />
+
+                <TextView
+                    android:id="@+id/altimeterTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Altimeter"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

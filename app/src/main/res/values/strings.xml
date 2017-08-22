@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BlackBox</string>
+    <string name="feedback">Feedback</string>
+    <string name="arrange">Arrange</string>
+    <string name="vertical">Vertical</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="open_weather_maps_app_id">11111</string>
+    <string name="pdMessage">Updating System Information, Please Hold On.</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
